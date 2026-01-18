@@ -8,6 +8,6 @@ public class Bank {
         System.out.println("[NAME : "+this.bankname+" ]");
         System.out.println("[MONEY: "+this.bankmoney+" ]");
         System.out.println("----------------------------");
-
+        //AFTER HERE THERE SHOULD BE SCANNER WHEN USER PRESS ENTER IT PROCED TO NEXT
     }
 }
