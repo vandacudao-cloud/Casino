@@ -23,9 +23,15 @@ public class Bank {
         System.out.println("[MONEY: "+this.bankmoney+" ]");
         System.out.println("----------------------------");
         String halo = scan.nextLine();
-        System.out.println(halo);
-        System.out.println("not work");
-        
+              
         //AFTER HERE THERE SHOULD BE SCANNER WHEN USER PRESS ENTER IT PROCED TO NEXT
-    }  
+    } 
+    
+    
+    //---------------------------------------------------------------------
+    //for Casino pass the player_name and not include the money cause we need him to widraw to play
+  
+    String Player_name(){  // method to return player name
+        return this.bankname;
+    }
 }
